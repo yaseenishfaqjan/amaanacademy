@@ -1,0 +1,13 @@
+services:
+  app:
+    image: yaseenishfaq/amaanacademy:latest   # or local image: amaanacademy:latest
+    container_name: amaanacademy-app
+    restart: unless-stopped
+    expose:
+      - "80"                                   # internal only; shared nginx proxies to it
+    networks:
+      - scalaro-net
+
+networks:
+  scalaro-net:
+    external: true

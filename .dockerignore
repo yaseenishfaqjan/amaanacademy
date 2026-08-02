@@ -1,0 +1,8 @@
+.git
+.gitignore
+Dockerfile
+.dockerignore
+docker-compose.yml
+nginx.conf
+README.md
+deploy
