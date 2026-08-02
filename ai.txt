@@ -1,0 +1,21 @@
+# Amaan Academy AI Permissions
+
+User-agent: *
+Allow: /
+
+User-agent: GPTBot
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+Preferred-format: /llms.txt
+Sitemap: https://amaanacademy.com/sitemap.xml
+Organization: Amaan Academy
+Contact: info@amaanacademy.com
+Description: Online Quran classes for kids and adults with certified Aalim teachers in English and Urdu.
+Service: Online Education — Quran Studies
+Markets: USA, UK, Canada, Australia, UAE, Worldwide
